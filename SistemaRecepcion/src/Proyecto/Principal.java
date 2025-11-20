@@ -123,9 +123,7 @@ public class Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BGymActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BGymActionPerformed
-        Cine cine = new Cine();
-        cine.registrarReserva();
-        cine.mostrarResumen();
+
     }//GEN-LAST:event_BGymActionPerformed
 
     private void B_BaristaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_BaristaActionPerformed
@@ -133,15 +131,17 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_B_BaristaActionPerformed
 
     private void BCineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BCineActionPerformed
-        // TODO add your handling code here:
+        Cine cine = new Cine();
+        cine.ejecutarModulo();
     }//GEN-LAST:event_BCineActionPerformed
 
     private void BClasesGrupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BClasesGrupActionPerformed
-        // TODO add your handling code here:
+        ClasesGrupales clasesGrup = new ClasesGrupales();
+        clasesGrup.ejecutarModulo();
     }//GEN-LAST:event_BClasesGrupActionPerformed
 
     private void BSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BSalirActionPerformed
-        // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_BSalirActionPerformed
 
     /**
