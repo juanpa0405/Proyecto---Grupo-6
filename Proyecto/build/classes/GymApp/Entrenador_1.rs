@@ -1,0 +1,2 @@
+proyecto.Entrenador
+GymApp.Entrenador
